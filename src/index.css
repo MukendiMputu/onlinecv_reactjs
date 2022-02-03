@@ -11,7 +11,7 @@ html {
   color: #555;
 }
 
-nav {
+ul, nav {
   list-style: none;
 }
 
@@ -39,6 +39,21 @@ section {
   flex-direction: column;
   align-items: center;
   padding: 100px 80px;
+}
+
+section h3 {
+  text-transform: capitalize;
+  font: bold 32px "Open Sans", sans-serif;
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+section p {
+  max-width: 775px;
+  line-height: 2;
+  padding: 0 20px;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
 /*Header Styles*/

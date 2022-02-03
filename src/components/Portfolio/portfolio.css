@@ -1,0 +1,28 @@
+ul {
+    list-style: none;
+}
+
+.grid {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+hr {
+    width: 250px;
+    height: 3px;
+    background-color: #3F51b5;
+    border: 0;
+    margin-bottom: 50px;
+}
+
+/* Projects Pictures */
+.projects .grid li {
+    height: 350px;
+    padding: 20px;
+    background-clip: content-box;
+    background-size: cover;
+    background-position: center;
+    flex-basis: 33%;
+}

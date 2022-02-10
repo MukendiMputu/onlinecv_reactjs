@@ -18,11 +18,23 @@ hr {
 }
 
 /* Projects Pictures */
-.projects .grid li {
+.portfolio .grid li {
     height: 350px;
     padding: 20px;
     background-clip: content-box;
     background-size: cover;
     background-position: center;
     flex-basis: 33%;
+}
+
+@media (max-width: 1100px) {
+    .portfolio .grid li {
+        flex-basis: 50%;
+    }
+}
+
+@media (max-width: 800px) {
+    .portfolio .grid li {
+        flex-basis: 100%;
+    }
 }

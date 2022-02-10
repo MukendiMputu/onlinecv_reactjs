@@ -2,37 +2,75 @@ import './App.css';
 import Header from "./Header/Header";
 import MukendiMputuHome from "./Home/MukendiMputuHome";
 import Portfolio from "./Portfolio/Portfolio";
+import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {faAt, faSquarePhone} from "@fortawesome/free-solid-svg-icons";
+import {faFacebook, faGithub, faLinkedin, faTwitter, faXing} from "@fortawesome/free-brands-svg-icons";
+import {Bootstrap, Grid, Row, Col, Container} from 'react-bootstrap';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
     return (
         <section className={"about"}>
-            <h3>About</h3>
-            <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam
-                rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt
-                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia
-                consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. </p>
+            <h3>About Me</h3>
+            <hr/>
+            <p>
+                I am a web developer with ~4 years work experience in HTML, CSS and JavaScript. Expanding my skills in
+                popular Frameworks (React, Angular, Spring, Django, Ruby on Rails and others) and eager to contribute
+                to a collaborative developer team.<br/>
+                My capacity to learn quickly and adapt to difficult conditions is something I'm most proud of;
+                they make me aware of my limits so that I can push past them. I can currently communicate in five languages
+                and am learning a sixth one. I'm a proactive thinker who is always up for new challenges.
+            </p>
         </section>
     );
 }
 
 function Contact() {
     return (
-        <section>
+        <section className={"contact"}>
             <h3>Contact</h3>
-            <span className={"contact_prefix"}>Phone</span> 0123 4567 8901
-            <span className={"contact_prefix"}>Email</span> example@thisite.com
-            <p>LinkedIn</p>
-            <p>Xing</p>
-            <p>GitHub</p>
+            <hr/>
+            <ul>
+                <li><FontAwesomeIcon icon={faSquarePhone} size={"1x"}/> <a href={"tel:+4917686021406"}>+49 176 86 021
+                    406</a></li>
+                <li><FontAwesomeIcon icon={faAt}/><a
+                    href={"mailto:mukendi_mputu@outlook.com"}> mukendi_mputu@outlook.com</a></li>
+                <li><FontAwesomeIcon icon={faLinkedin}/> <a href={"https://linkedin.com/mukendi-mputu-de"}>LinkedIn</a>
+                </li>
+                <li><FontAwesomeIcon icon={faXing}/> <a href={"https://xing.com/profile/Mukendi_Mputu/cv"}>Xing</a></li>
+                <li><FontAwesomeIcon icon={faGithub}/> <a href={"https://github.com/MukendiMputu"}>GitHub</a></li>
+            </ul>
         </section>
     );
 }
 
 function Footer() {
     return (
-        <section className={"footer"}>
-           <p>&copy; 2021 by Mukendi Mputu. Made with ❤️ using ReactJS</p>
-        </section>
+    <Container className={"p-3"}>
+        <Row className={"row"}>
+            <div className={"col-xs-12"}>
+                <h3>Mukendi Mputu</h3>
+
+                <div className={"row"}>
+                    <div className={"col-xs-12 col-sm-7"}>
+                        <p><small>Website created with ❤️ using ReactJS</small></p>
+                    </div>
+                    <div className={"col-xs-12 col-sm-5"}>
+                        {/*<p className={"text-right"}>
+                            <a href="https://facebook.com/" className={"social-round-icon white-round-icon fa-icon"}
+                               title="">
+                                <FontAwesomeIcon icon={faFacebook} aria-hidden={"true"} />
+                            </a>
+                            <a href="https://twitter.com/" className={"social-round-icon white-round-icon fa-icon"}
+                               title="">
+                                <FontAwesomeIcon icon={faTwitter} aria-hidden={"true"} />
+                            </a>
+                        </p>*/}
+                    </div>
+                </div>
+            </div>
+        </Row>
+    </Container>
     );
 }
 

@@ -27,7 +27,7 @@ function About() {
 
 function Contact() {
     return (
-        <section className={"contact"}>
+        <section id={"contact"} className={"contact"}>
             <h3>Contact</h3>
             <hr/>
             <ul>

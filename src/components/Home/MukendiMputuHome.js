@@ -8,7 +8,7 @@ function MukendiMputuHome () {
             <div className={"hero-content-area"}>
                 <h1>Hello, I'm Mukendi</h1>
                 <h3>Bachelor of Computer Science</h3>
-                <Button variant={"success"} className={""} href="#" >Contact Me</Button>
+                <Button variant={"success"} className={""} href="#contact" >Contact Me</Button>
             </div>
         </section>
     );

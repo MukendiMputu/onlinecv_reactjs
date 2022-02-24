@@ -2,7 +2,7 @@ import './portfolio.css'
 
 function Portfolio() {
     return (
-        <section className={"portfolio"}>
+        <section id={"projects"} className={"portfolio"}>
             <h3 className={"title"}>Projects</h3>
             <hr/>
             <p>This is a set of projects I've been working on.</p>

@@ -1,4 +1,5 @@
 import Button from "react-bootstrap/Button";
+import {Form} from "react-bootstrap";
 
 
 function MukendiMputuHome () {
@@ -8,13 +9,14 @@ function MukendiMputuHome () {
             <div className={"hero-content-area"}>
                 <h1>Hello, I'm Mukendi</h1>
                 <h3>Bachelor of Computer Science</h3>
-                <Button
-                    download
-                    variant={"success"}
-                    className={""}
-                    href="public/assets/docs/Mukendi Mputu CV HQ.pdf"
-                >Here's my CV
-                </Button>
+                <Form method={"get"} action={"assets/docs/Mukendi_Mputu_CV.pdf"}>
+                    <Button
+                        variant={"success"}
+                        className={""}
+                        type={"submit"}
+                    >Here's my CV
+                    </Button>
+                </Form>
             </div>
         </section>
     );

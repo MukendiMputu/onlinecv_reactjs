@@ -1,14 +1,25 @@
+import {Container, Nav, Navbar, NavbarBrand, NavLink} from "react-bootstrap";
+import NavbarToggle from "react-bootstrap/NavbarToggle";
+import NavbarCollapse from "react-bootstrap/NavbarCollapse";
 
 
 function Header () {
     return (
         <header>
-            <h2><a href="#">Mukendi Mputu</a></h2>
-            <nav>
-                <li><a href="#">CV</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </nav>
+            <Navbar bg={"light"} variant={"light"} expand={"md"}>
+                <Container>
+                    <NavbarBrand href={"#home"}>Mukendi Mputu</NavbarBrand>
+                    <NavbarToggle aria-controls={"responsive-navbar-nav"} />
+                    <NavbarCollapse>
+                        <Nav className={"me-auto"}/>
+                        <Nav>
+                            <NavLink href={"#curriculum"}>CV</NavLink>
+                            <NavLink href={"#projects"}>Projects</NavLink>
+                            <NavLink href={"#contact"}>Contact</NavLink>
+                        </Nav>
+                    </NavbarCollapse>
+                </Container>
+            </Navbar>
         </header>
     );
 }

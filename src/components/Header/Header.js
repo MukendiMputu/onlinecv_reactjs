@@ -13,7 +13,7 @@ function Header () {
                     <NavbarCollapse>
                         <Nav className={"me-auto"}/>
                         <Nav>
-                            <NavLink href={"#curriculum"}>CV</NavLink>
+                            <NavLink href={"#about"}>About Me</NavLink>
                             <NavLink href={"#projects"}>Projects</NavLink>
                             <NavLink href={"#contact"}>Contact</NavLink>
                         </Nav>

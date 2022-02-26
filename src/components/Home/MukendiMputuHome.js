@@ -8,7 +8,13 @@ function MukendiMputuHome () {
             <div className={"hero-content-area"}>
                 <h1>Hello, I'm Mukendi</h1>
                 <h3>Bachelor of Computer Science</h3>
-                <Button variant={"success"} className={""} href="#contact" >Contact Me</Button>
+                <Button
+                    download
+                    variant={"success"}
+                    className={""}
+                    href="public/assets/docs/Mukendi Mputu CV HQ.pdf"
+                >Here's my CV
+                </Button>
             </div>
         </section>
     );

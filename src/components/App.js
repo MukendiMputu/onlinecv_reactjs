@@ -4,13 +4,13 @@ import MukendiMputuHome from "./Home/MukendiMputuHome";
 import Portfolio from "./Portfolio/Portfolio";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faAt, faSquarePhone} from "@fortawesome/free-solid-svg-icons";
-import {faFacebook, faGithub, faLinkedin, faTwitter, faWordpress, faXing} from "@fortawesome/free-brands-svg-icons";
-import {Bootstrap, Grid, Row, Col, Container} from 'react-bootstrap';
+import {faGithub, faLinkedin, faWordpress, faXing} from "@fortawesome/free-brands-svg-icons";
+import {Row, Container} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function About() {
     return (
-        <section className={"about"}>
+        <section id={"about"} className={"about"}>
             <h3>About Me</h3>
             <hr/>
             <p>

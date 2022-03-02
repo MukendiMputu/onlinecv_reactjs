@@ -62,15 +62,16 @@ function Footer() {
                             <a href="https://twitter.com/" className={"social-round-icon white-round-icon fa-icon"}
                                title="">
                                 <FontAwesomeIcon icon={faTwitter} aria-hidden={"true"} />
-                            </a>*/}
+                            </a>
                             <a href="https://blog.mukendi-mputu.de/" className={"social-round-icon black-round-icon fa-icon"}
                                title="">
                                 <FontAwesomeIcon icon={faWordpress} aria-hidden={"true"} />
-                            </a>
+                            </a>*/}
                         </p>
                     </div>
                 </div>
             </div>
+            <Contact />
         </Row>
     </Container>
     );

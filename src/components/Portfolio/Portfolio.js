@@ -16,7 +16,7 @@ let projectList = [
         description: "A fictive fashion company website built using ReactJS",
         picture: "assets/img/reactjs.jpg",
         alt: "Photo by Antonio Batinić from Pexels",
-        link: "https://github.com/MukendiMputu/sixteen-clothing"
+        link: ""
     },
     {
         name: "GET racing Dortmund e.V.",

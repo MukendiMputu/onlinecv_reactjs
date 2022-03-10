@@ -46,7 +46,7 @@ section h3 {
   text-align: center;
 }
 
-section p {
+section > p {
   max-width: 775px;
   line-height: 2;
   padding: 0 20px;

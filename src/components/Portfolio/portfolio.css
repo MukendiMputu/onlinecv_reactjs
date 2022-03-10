@@ -6,7 +6,7 @@ ul {
     width: 100%;
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 hr {
@@ -18,12 +18,7 @@ hr {
 }
 
 /* Projects Pictures */
-.portfolio .grid li {
-    height: 350px;
-    padding: 20px;
-    background-clip: content-box;
-    background-size: cover;
-    background-position: center;
+.portfolio .grid div {
     flex-basis: 33%;
 }
 

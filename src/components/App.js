@@ -71,7 +71,6 @@ function Footer() {
                     </div>
                 </div>
             </div>
-            <Contact />
         </Row>
     </Container>
     );

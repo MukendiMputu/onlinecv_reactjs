@@ -2,8 +2,11 @@ import './portfolio.css'
 import {Card} from "react-bootstrap";
 import {faLink} from "@fortawesome/free-solid-svg-icons/faLink";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
+import {connect} from "react-redux";
+import {useState} from "react";
+import Project from "./project";
 
-let projectList = [
+let gitRepos = [
     {
         name: "Conference Room",
         description: "A meeting room booking website built using Ruby on Rails.",
@@ -27,7 +30,8 @@ let projectList = [
     },
 ];
 
-function Portfolio() {
+function Portfolio(props) {
+    const [projectList] = useState(gitRepos);
 
     return (
         <section id={"projects"} className={"portfolio"}>
@@ -35,16 +39,8 @@ function Portfolio() {
             <hr/>
             <p>This is a set of projects I've been working on.</p>
             <div className={"grid"}>
-                {projectList.map((project) => (
-                        <Card>
-                            <Card.Img variant={"top"} src={project.picture} alt={project.alt}/>
-                            <Card.Body>
-                                <Card.Title>{project.name} <a href={project.link} target={"_blank"} rel="noreferrer"><FontAwesomeIcon icon={faLink}/></a> </Card.Title>
-                                <Card.Text>
-                                    {project.description}
-                                </Card.Text>
-                            </Card.Body>
-                        </Card>
+                {projectList.map((project, id) => (
+                        <Project key={id} project={project}/>
                     )
                 )}
             </div>

@@ -31,7 +31,7 @@ function Contact() {
             <h3>Contact</h3>
             <hr/>
             <ul>
-                <li><FontAwesomeIcon icon={faSquarePhone} size={"1x"}/> <a href={"tel:+4917686021406"}>+49 176 86 021 406</a></li>
+                {/*<li><FontAwesomeIcon icon={faSquarePhone} size={"1x"}/> <a href={"tel:+4917686021406"}>+49 176 86 021 406</a></li>*/}
                 <li><FontAwesomeIcon icon={faAt}/><a href={"mailto:mukendi_mputu@outlook.com"}> mukendi_mputu@outlook.com</a></li>
                 <li><FontAwesomeIcon icon={faWordpress}/><a href={"https://blog.mukendi-mputu.de/"}>WordPress Blog</a></li>
                 <li><FontAwesomeIcon icon={faLinkedin}/> <a href={"https://linkedin.com/mukendi-mputu-de"}>LinkedIn</a></li>

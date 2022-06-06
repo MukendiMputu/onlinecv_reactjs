@@ -8,7 +8,7 @@ function MukendiMputuHome () {
             <div className={"background-image"} style={{backgroundImage: "url(assets/img/mountains.jpg)"}}>&nbsp;</div>
             <div className={"hero-content-area"}>
                 <h1>Hello, I'm Mukendi</h1>
-                <h3>Bachelor of Computer Science</h3>
+                <h3>Computer Science Master Student</h3>
                 <Form method={"get"} action={"assets/docs/Mukendi_Mputu_CV.pdf"}>
                     <Button
                         variant={"success"}

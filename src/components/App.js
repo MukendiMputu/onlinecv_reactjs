@@ -14,7 +14,7 @@ function About() {
             <h3>About Me</h3>
             <hr/>
             <p>
-                I am a web developer with ~4 years work experience in HTML, CSS and JavaScript. Expanding my skills in
+                I am a computer science student with ~4 years experience in Web development (HTML, CSS and JavaScript). Expanding my skills in
                 popular Frameworks (React, Angular, Spring, Django, Ruby on Rails and others) and eager to contribute
                 to a collaborative developer team.<br/>
                 My capacity to learn quickly and adapt to difficult conditions is something I'm most proud of;
